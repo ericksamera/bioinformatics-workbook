@@ -31,6 +31,10 @@ There are many ways to define it. Here are a few examples:
 
 The work of the "bioinformatics" division at the AGC is very broad, and it's very clear that nobody covers every single skill in this book. We are not programmers; we are biologists first (who happen to have some experience with computers).
 
+{% hint style="info" %}
+How would you define bioinformatics and what are its main goals?
+{% endhint %}
+
 ## _in vivo_, _in vitro,_ and now _in silico_
 
 Before bioinformatics, there were two ways to get the answer to your biological question:
@@ -51,10 +55,7 @@ With that in mind, you may have heard of computational biology as another name f
 What's the difference between a bioinformatician and a computational biologist?
 {% endhint %}
 
-| Computational biology                                                                                                                            | Bioinformatics                                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Developing and applying _mathematical models_ and _computational simulations_ for the study of biological phenomena                              | Organizing and processing data to generate a biological inference                                                                                             |
-| **Example:** A _computational biologist_ creates a simulation of the electrical interactions of a cation channel to simulate channel conductance | **Example:** A _bioinformatician_ takes whole-genome sequencing (WGS) data to characterize groups of variants in the genome which relate to certain diseases. |
+<table data-full-width="false"><thead><tr><th>Computational biology</th><th>Bioinformatics</th></tr></thead><tbody><tr><td>Developing and applying <em>mathematical models</em> and <em>computational simulations</em> for the study of biological phenomena</td><td>Organizing and processing data to generate a biological inference</td></tr><tr><td><strong>Example:</strong> A <em>computational biologist</em> creates a simulation of the electrical interactions of a cation channel to simulate channel conductance</td><td><strong>Example:</strong> A <em>bioinformatician</em> takes whole-genome sequencing (WGS) data to characterize groups of variants in the genome which relate to certain diseases.</td></tr></tbody></table>
 
 Something to note is that there is a lot of overlap between those two, especially in the kind of work we do at the AGC.
 
@@ -66,16 +67,41 @@ Single target Sanger sequencing is easier to view and analyze (and we'll start h
 \
 Massively parallel sequencing from NGS gives you massive amounts of data. Viewing and processing this kind of data requires more processing power. \
 \
-Just for some scale, Sanger sequencing can give us 96 different DNA sequences from a single run. NGS gives us 20 million and herein lies the importance of being able to process all that.\
+Just for some scale, Sanger sequencing can give us 96 different DNA sequences from a single run. NGS gives us **20 million** and herein lies the importance of being able to process all that.\
 \
 Something we will briefly introduce at this point is appreciating that **different file formats have different purposes**. Here are a few of the most common that we work with in the lab:
 
-* AB1 trace files (`.ab1`, `.abif`, `.abif`,  etc.)\
-  These are the files right off the sequencer. This file contains [relative fluorescence peaks](#user-content-fn-4)[^4], per-base quality scores, and the basecalls.
-* FASTA files (`.fasta`, `.fas`, `.fa`, etc.[^5])\
-  These are text-based formats for representing a nucleotide sequence ⁠— and specifically just the sequence.
-* FASTQ files (`.fastq`, etc.)\
-  These files are text-based formats for representing a nucleotide sequence and quality scores per base.
+{% tabs %}
+{% tab title="AB1 trace files" %}
+<figure><img src="../.gitbook/assets/electropherogram.png" alt=""><figcaption><p><strong>Figure 1.</strong> ApE visualization of an electropherogram showing basecalls, fluorescence peaks, and quality score bars.</p></figcaption></figure>
+
+**AB1 trace files** (`.ab1`, `.abif`, `.abif`,  etc.)\
+These are the files right off the sequencer. This file contains [relative fluorescence peaks](#user-content-fn-4)[^4], per-base quality scores, and the basecalls.
+
+**How to open these files:**\
+These files are surprisingly difficult to open and require specific software. Although there is a set of proprietary[^5] software for handling electropherograms, our lab recommends using AplasmidEditor (APE).
+{% endtab %}
+
+{% tab title="FASTQ files" %}
+<figure><img src="../.gitbook/assets/fastq-sequence.png" alt=""><figcaption><p><strong>Figure 2.</strong> Screenshot of FASTQ-formatted file showing sequence and PHRED quality scores per base.</p></figcaption></figure>
+
+**FASTQ files** (`.fastq`, `.fq`, etc.)\
+These files are text-based formats for representing a nucleotide sequence and quality scores per base.
+
+**How to open these files:**\
+Minimally, any text editor will do!
+{% endtab %}
+
+{% tab title="FASTA files" %}
+<figure><img src="../.gitbook/assets/fasta-sequence.png" alt=""><figcaption><p><strong>Figure 3.</strong> Screenshot of FASTQ-formatted file showing sequence.</p></figcaption></figure>
+
+**FASTA files** (`.fasta`, `.fas`, `.fa`, etc.[^6])\
+These are text-based formats for representing a nucleotide sequence ⁠— and specifically just the sequence.
+
+**How to open these files:**\
+Minimally, any text editor will do!
+{% endtab %}
+{% endtabs %}
 
 We will go into more detail about the makeup of each of those files, but for now, just appreciate that all 3 of those files are representations of the same sample.
 
@@ -97,4 +123,6 @@ Bioinformatics came out of necessity to process large amounts of sequencing data
 
 [^4]: This is more formally called an electropherogram (or sometimes a chromatogram).
 
-[^5]: Shhhh.. A little spoiler for you: the file extension for a FASTA file is absolutely arbitrary. The file extension is just a hint to the computer about what to do with it. We'll discuss the FASTA format in more detail in later sections.
+[^5]: read: _expensive_
+
+[^6]: Shhhh.. A little spoiler for you: the file extension for a FASTA file is absolutely arbitrary. The file extension is just a hint to the computer about what to do with it. We'll discuss the FASTA format in more detail in later sections.
