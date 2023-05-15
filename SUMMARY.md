@@ -42,4 +42,7 @@
 * [Appendix B: Exercises](appendices/appendix-b-exercises/README.md)
   * [1.2.2A: Fish identification (BIOL 3320)](appendices/appendix-b-exercises/1.2.2a-fish-identification-biol-3320.md)
   * [1.2.2B: Bacterial identification](appendices/appendix-b-exercises/1.2.2b-bacterial-identification.md)
-* [Appendix C: Projects](appendices/appendix-c-projects.md)
+* [Appendix C: Projects](appendices/appendix-c-projects/README.md)
+  * [1.2: Primer design and specificity checking](appendices/appendix-c-projects/1.2-primer-design-and-specificity-checking.md)
+  * [1.3A: Yeast cloning project (BIOL 2320)](appendices/appendix-c-projects/1.3a-yeast-cloning-project-biol-2320.md)
+  * [1.3B: The Ames test (BIOL 3320)](appendices/appendix-c-projects/1.3b-the-ames-test-biol-3320.md)
