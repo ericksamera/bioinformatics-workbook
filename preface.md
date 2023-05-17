@@ -8,9 +8,9 @@ description: Written by students for students.
 
 Welcome to my workbook! This is the brief part where I can tell you a bit about my own experience in genomics and bioinformatics.
 
-I was hired at the Applied Genomics Centre in second-year as a part-time lab assistant for the summer. I went through the same introductory wet-lab on-boarding of PCR and sequencing (with some FLA mixed in too). As I racked up sequencing runs on our humble SeqStudio (and racked lots of tips), my summer project eventually reached the data analysis stage. I stumbled into the world of `Python`, `R`, and processing lots and lots of `.csv` files. I quickly saw that this field of data analysis was&#x20;
+I was hired at the Applied Genomics Centre in second-year as a part-time lab assistant for the summer. I went through the same introductory wet-lab on-boarding of PCR and sequencing (with some FLA mixed in too). As I racked up sequencing runs on our humble SeqStudio (and racked lots of tips), my summer project eventually reached the data analysis stage. I stumbled into the world of `Python`, `R`, and processing lots and lots of `.csv` files. I quickly saw that this field of data analysis was an unfilled niche—and something I could get really good at.
 
-Since then, I've been involved in multiple bioinformatics projects at the AGC, especially those involved in bacteria. I've done microbial composition analysis, large-scale variant-calling, protein-folding, genome assembly, and more -- alongside many pure programming projects.&#x20;
+Since then, I've been involved in multiple bioinformatics projects at the AGC, especially those involved in bacteria. I've done microbial composition analysis, large-scale variant-calling, protein-folding, genome assembly, and more—alongside many pure programming projects.&#x20;
 
 Altogether, I am writing this workbook to provide other learners with some direction in learning about bioinformatics.
 
