@@ -40,11 +40,11 @@
 
 ## III. Python and programming <a href="#iii-python-and-programming" id="iii-python-and-programming"></a>
 
-* [Recommended resources](iii-python-and-programming/recommended-resources.md)
+* [3. 1 :: Recommended resources](iii-python-and-programming/3.-1-recommended-resources.md)
 
 ## IV. R and Statistics
 
-* [Recommended Resources](iv.-r-and-statistics/recommended-resources.md)
+* [4.1 :: Recommended Resources](iv.-r-and-statistics/4.1-recommended-resources.md)
 
 ## Appendices
 
