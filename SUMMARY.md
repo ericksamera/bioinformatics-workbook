@@ -29,13 +29,14 @@
 
 ## II. Linux and the Command-line <a href="#ii-linux-and-cli" id="ii-linux-and-cli"></a>
 
-* [2.1 :: Recommended resources](ii-linux-and-cli/2.1-recommended-resources.md)
-* [2.2 :: Getting started with Bash](ii-linux-and-cli/2.2-getting-started-with-bash.md)
-* [2.3 :: The Unix Filesystem](ii-linux-and-cli/2.3-the-unix-filesystem.md)
-* [2.4 :: Variables & Wildcards](ii-linux-and-cli/2.4-variables-and-wildcards.md)
-* [2.5 :: Redirections & Pipes](ii-linux-and-cli/2.5-redirections-and-pipes.md)
-* [2.6 :: Control Flow](ii-linux-and-cli/2.6-control-flow.md)
-* [2.7 :: Writing scripts](ii-linux-and-cli/2.7-writing-scripts.md)
+* [2.1 :: Mini-tutorial](ii-linux-and-cli/2.1-mini-tutorial/README.md)
+  * [2.1.1 :: Getting started with Bash](ii-linux-and-cli/2.1-mini-tutorial/2.1.1-getting-started-with-bash.md)
+  * [2.1.2 :: The Unix Filesystem](ii-linux-and-cli/2.1-mini-tutorial/2.1.2-the-unix-filesystem.md)
+  * [2.1.3 :: Variables & Wildcards](ii-linux-and-cli/2.1-mini-tutorial/2.1.3-variables-and-wildcards.md)
+  * [2.1.4 :: Redirections & Pipes](ii-linux-and-cli/2.1-mini-tutorial/2.1.4-redirections-and-pipes.md)
+  * [2.1.7 :: Control Flow](ii-linux-and-cli/2.1-mini-tutorial/2.1.7-control-flow.md)
+  * [2.1.8 :: Writing scripts](ii-linux-and-cli/2.1-mini-tutorial/2.1.8-writing-scripts.md)
+* [2.2 :: Recommended resources](ii-linux-and-cli/2.2-recommended-resources.md)
 
 ## III. Python and programming <a href="#iii-python-and-programming" id="iii-python-and-programming"></a>
 
