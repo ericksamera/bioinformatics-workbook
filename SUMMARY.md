@@ -21,10 +21,10 @@
   * [1.4.1 :: JalView - Introduction and installation](i-essentials/1.4-multiple-sequence-alignment-msa-and-jalview/1.4.1-jalview-introduction-and-installation.md)
   * [1.4.2 :: Multiple sequence alignments (MSA)](i-essentials/1.4-multiple-sequence-alignment-msa-and-jalview/1.4.2-multiple-sequence-alignments-msa.md)
   * [1.4.3 :: Phylogeny](i-essentials/1.4-multiple-sequence-alignment-msa-and-jalview/1.4.3-phylogeny.md)
-* [1.5 :: Online Genome Browsers](i-essentials/1.5-online-genome-browsers/README.md)
-  * [1.5.1 :: NCBI](i-essentials/1.5-online-genome-browsers/1.5.1-ncbi.md)
-  * [1.5.2 : Ensembl](i-essentials/1.5-online-genome-browsers/1.5.2-ensembl.md)
-  * [1.5.3 :: UCSC](i-essentials/1.5-online-genome-browsers/1.5.3-ucsc.md)
+* [1.5 :: Genome Browsers](i-essentials/1.5-genome-browsers/README.md)
+  * [1.5.1 :: NCBI](i-essentials/1.5-genome-browsers/1.5.1-ncbi.md)
+  * [1.5.2 : Ensembl](i-essentials/1.5-genome-browsers/1.5.2-ensembl.md)
+  * [1.5.3 :: UCSC](i-essentials/1.5-genome-browsers/1.5.3-ucsc.md)
 * [1.6 :: Next-Generation Sequencing (NGS)](i-essentials/1.6-next-generation-sequencing-ngs.md)
 
 ## II. Linux and the Command-line <a href="#ii-linux-and-cli" id="ii-linux-and-cli"></a>
@@ -53,6 +53,7 @@
 * [Appendix B: Exercises](appendices/appendix-b-exercises/README.md)
   * [1.2.2A: Fish identification (BIOL 3320)](appendices/appendix-b-exercises/1.2.2a-fish-identification-biol-3320.md)
   * [1.2.2B: Bacterial identification](appendices/appendix-b-exercises/1.2.2b-bacterial-identification.md)
+  * [X.1: Fragment Length Analysis](appendices/appendix-b-exercises/x.1-fragment-length-analysis.md)
 * [Appendix C: Projects](appendices/appendix-c-projects/README.md)
   * [1.2: Primer design and specificity checking](appendices/appendix-c-projects/1.2-primer-design-and-specificity-checking.md)
   * [1.3A: Yeast cloning project (BIOL 2320)](appendices/appendix-c-projects/1.3a-yeast-cloning-project-biol-2320.md)
